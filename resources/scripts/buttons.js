@@ -9,7 +9,7 @@ document.onreadystatechange = function () {
 
         // portfolio button
         about = document.getElementById('portfolio');
-        about.addEventListener('click', function () {window.open("./projects/mixed-messages/index.html", "_self");});
+        about.addEventListener('click', function () {window.open("https://malimar99.github.io/projects/mixed-messages/index.html");});
 
         // photography button
 
