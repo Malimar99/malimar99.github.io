@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#message {
+    position:relative;
+    display:flex;
+ 
+    padding: 40px;
+    height: 300px;
+    width: fit-content;
+    min-width: 700px;
+   
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: chartreuse;
+    box-shadow: 5px 5px 3px grey;
+    border-radius: 165px;
+    font-family: 'Pacifico';
+    font-size: 48px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#button {
+    text-decoration: none;
+    user-select: none;
+
+    padding: 5px;
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: lightgray;
+    
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px blue;
+    
+    text-justify: center;
+    text-align: center;
+}
+/*
+#button:hover {
+    background-color: #AAAAAA;
+}
+
+#button:active {
+    background-color: chartreuse;
+}
+*/
